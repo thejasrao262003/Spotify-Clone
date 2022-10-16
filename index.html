@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Spotify - Web Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img class = "logo" src="logo.png" alt="Spotify">Spotify</li>
+        <li>Home</li>
+      <li>About</li>
+      <li>Contact Us</li>
+      </ul>
+    </nav>
+    <div class="main">
+      <div class="side">
+        <div class="search">
+          <i class="fa-solid fa-2x fa-magnifying-glass"></i>
+          <span>Search</span>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-2x fa-book"></i>
+          <span>Library</span>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-2x fa-compact-disc"></i>
+          <span>Playlist</span>
+        </div>
+      </div>
+    <div class="container">
+      <h1>Best of English songs</h1>
+      <div class="songList">
+        <div class="songItem">
+          <img src="arcticmonkeys.jfif" alt="">
+          <span class="songName">Arctic Monkeys - Do I Wanna Know</span>
+          <span class="songListPlay"><span>4:25</span><i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+          <img src="countingstars.jpg" alt="">
+          <span class="songName">One Republic - Counting stars</span>
+          <span class="songListPlay"><span>4:43</span><i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+          <img src="faded.jpg" alt="">
+          <span class="songName">Alan Walker - Faded</span>
+          <span class="songListPlay"><span>3:32</span><i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+          <img src="hymnfortheweekend.jfif" alt="">
+          <span class="songName">Coldplay - Hymn For The Weekend</span>
+          <span class="songListPlay"><span>4:20</span><i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+          <img src="neverclose.jpg" alt="">
+          <span class="songName">Adam Lambert - Never Close</span>
+          <span class="songListPlay"><span>4:28</span><i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+          <img src="perfect.jfif" alt="">
+          <span class="songName">Ed Sheeran - Perfect</span>
+          <span class="songListPlay"><span>4:25</span><i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+          <img src="pompei.jpg" alt="">
+          <span class="songName">Bastille - Pompeii</span>
+          <span class="songListPlay"><span>3:52</span><i id="7" class="fa-regular songItemPlay fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+          <img src="seeyouagain.jpg" alt="">
+          <span class="songName">Wiz Khalifa - See You Again</span>
+          <span class="songListPlay"><span class="songListItem">3:57</span><i id="8" class="fa-regular songItemPlay fa-circle-play" id="play_button"></i></span>
+        </div>
+        <div class="songItem">
+          <img src="wakemeup.jpg" alt="" style="width:60px">
+          <span class="songName">Avicci - Wake Me Up</span>
+          <span class="songListPlay"><span>4:25</span><i id="9" class="fa-regular songItemPlay fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+          <img src="somethingjustlikethis.jpg" alt="">
+          <span class="songName">Chainsmokers - Something Just Like This</span>
+          <span class="songListPlay"><span>4:07</span><i id="10" class="fa-regular songItemPlay fa-circle-play"></i></span>
+        </div>
+      </div>
+      <div class="songBanner">
+
+      </div>
+    </div>
+  </div>
+      <div class="bottom">
+        <input type="range" name="range" value="0" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+          <!--fontawesome icons-->
+          <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+          <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+          <i class="fa-solid forward fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+          <img src="playing.gif" width="60px" alt="" id="gif">
+          <span class="caption">Arctic Monkeys - Do I Wanna Know</span>
+        </div>
+      </div>
+      <script src="https://kit.fontawesome.com/6a84fbd4bc.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
